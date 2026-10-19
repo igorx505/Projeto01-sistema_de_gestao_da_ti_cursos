@@ -1,0 +1,10 @@
+Matricula: 1600001 | Nome: Igor Oliveira | Sexo: 2 - Masculino | Idade: 23 | Turno: 1 - Manha1 | Curso(1): 3 - Python | Curso(2): 0 - N/A
+Matricula: 1600002 | Nome: Igor Arthur | Sexo: 2 - Masculino | Idade: 37 | Turno: 1 - Manha | Curso(1): 1 - PHP | Curso(2): 2 - Java
+Matricula: 1600003 | Nome: Ledine Carla | Sexo: 1 - Feminino | Idade: 25 | Turno: 1 - Manha | Curso(1): 1 - PHP | Curso(2): 3 - Python
+Matricula: 1600004 | Nome: Thomas Tavares | Sexo: 2 - Masculino | Idade: 22 | Turno: 1 - Manha | Curso(1): 2 - Java | Curso(2): 3 - Python
+Matricula: 1600005 | Nome: Petala Carvalho | Sexo: 1 - Feminino | Idade: 30 | Turno: 2 - Noite | Curso(1): 3 - Python | Curso(2): 2 - Java
+Matricula: 1600006 | Nome: Sofia Carvalho | Sexo: 1 - Feminino | Idade: 16 | Turno: 1 - Noite | Curso(1): 3 - Python | Curso(2): 1 - PHP
+Matricula: 1600007 | Nome: Junin | Idade: 19 | Turno: 1 - Manha
+Matricula: 1600008 | Nome: Joooooo | Sexo: 1 - Feminino | Idade: 19 | Turno: 1 - Manha
+Matricula: 1600009 | Nome: Igor Oliveira | Sexo: 2 - Masculino | Idade: 19 | Turno: 1 - Manha | Curso(1): 1 - PHP | Curso(2): 0 - N/A
+Matricula: 1600010 | Nome: Josefa | Sexo: 1 - Feminino | Idade: 40 | Turno: 2 - Noite | Curso(1): 1 - PHP | Curso(2): 2 - Java
