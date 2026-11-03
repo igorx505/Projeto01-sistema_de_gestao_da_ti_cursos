@@ -1,18 +1,15 @@
 import time
 
-# 0 - INTRODUÇÃO DO PROGRAMA
+
 print("="*30)
 print("\n","SEJA BEM-VINDO AO PROJETO 01\n")
 print("="*30)
 print("Alunos: Igor Farias,Igor Muller, Ledine Costa e Thomas Tavares \n""\n""\n""\n")
 time.sleep(2)
-# 1 - BOOL PARA DEIXAR RODANDO
+
 rodando = True
-
-# 2 - WHILE PARA MANTER RODANDO AS OPÇÕES
-
 while rodando is True:
-        # 3 - PRINT DAS INFORMAÇÕES 
+         
         print("=-="*10)
         print("PAINEL DE ATIVIDADES")
         print("=-="*10)
@@ -270,8 +267,39 @@ while rodando is True:
         elif opcao == 2:
             print("VOCÊ ESCOLHEU 2 - EDITAR ALUNO")
             time.sleep(2)
+
+
         elif opcao == 3:
             print("VOCÊ ESCOLHEU 3 - LISTAGEM")
+
+            time.sleep(1)
+            print("Carregando lista de alunos...\n")
+            time.sleep(1)
+                        
+            try:
+                with open("banco_de_dados.txt", "r", encoding="utf-8") as arquivo:
+                    linhas = arquivo.readlines()
+                                
+                    if not linhas:
+                        print("Nenhum aluno cadastrado.\n")
+                    else:
+                        print("=" * 40)
+                        print("     LISTA DE ALUNOS CADASTRADOS")
+                        print("=" * 40)
+                                    
+                    for linha in linhas:
+                        linha = linha.strip()
+                        if linha != "":
+                                 print(f" • {linha}")
+                                 print("-" * 40)
+        
+            except FileNotFoundError:
+                print("Arquivo de banco de dados ainda não foi criado.\n")
+            print("\n")                
+            input("Pressione ENTER para voltar ao menu...")
+
+            print("\n""\n")
+
             time.sleep(2)
         elif opcao == 0:
             print("FECHANDO... 3... 2... 1...")
